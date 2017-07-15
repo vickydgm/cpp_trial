@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		981E34421F19F3ED00337AC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981E34411F19F3ED00337AC1 /* main.cpp */; };
+		981E344A1F19F4CF00337AC1 /* Machine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981E34481F19F4CF00337AC1 /* Machine.cpp */; };
+		981E344D1F19F57000337AC1 /* MachineStates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 981E344B1F19F57000337AC1 /* MachineStates.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		981E343E1F19F3ED00337AC1 /* ShopFiniteStateMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShopFiniteStateMachine; sourceTree = BUILT_PRODUCTS_DIR; };
 		981E34411F19F3ED00337AC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		981E34481F19F4CF00337AC1 /* Machine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Machine.cpp; sourceTree = "<group>"; };
+		981E34491F19F4CF00337AC1 /* Machine.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Machine.hh; sourceTree = "<group>"; };
+		981E344B1F19F57000337AC1 /* MachineStates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MachineStates.cpp; sourceTree = "<group>"; };
+		981E344C1F19F57000337AC1 /* MachineStates.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MachineStates.hh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				981E34411F19F3ED00337AC1 /* main.cpp */,
+				981E34481F19F4CF00337AC1 /* Machine.cpp */,
+				981E344B1F19F57000337AC1 /* MachineStates.cpp */,
+				981E344C1F19F57000337AC1 /* MachineStates.hh */,
+				981E34491F19F4CF00337AC1 /* Machine.hh */,
 			);
 			path = ShopFiniteStateMachine;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981E344D1F19F57000337AC1 /* MachineStates.cpp in Sources */,
 				981E34421F19F3ED00337AC1 /* main.cpp in Sources */,
+				981E344A1F19F4CF00337AC1 /* Machine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
